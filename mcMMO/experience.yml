@@ -1,21 +1,26 @@
 ConfigPatchVersion: 2
+Conversion:
+    Exp_Modifier: 1
+Diminished_Returns:
+    Guaranteed_Minimum_Percentage: 0.05
+    Enabled: false
+    Threshold:
+        Swords: 250000
+        Taming: 250000
+        Acrobatics: 250000
+        Excavation: 250000
+        Herbalism: 250000
+        Unarmed: 250000
+        Woodcutting: 250000
+        Mining: 250000
+        Archery: 250000
+        Axes: 250000
+        Repair: 250000
+        Fishing: 250000
+        Alchemy: 250000
+    Time_Interval: 10
 EarlyGameBoost:
     Enabled: true
-ExploitFix:
-    Combat:
-        XPCeiling:
-            Enabled: true
-            Damage_Limit: 100
-    COTWBreeding: true
-    UnsafeEnchantments: false
-    Fishing: true
-    EndermanEndermiteFarms: false
-    Acrobatics: true
-    LavaStoneAndCobbleFarming: true
-    TreeFellerReducedXP: true
-    PistonCheating: true
-    SnowGolemExcavation: true
-    PreventPluginNPCInteraction: true
 Experience_Bars:
     Enable: true
     Update:
@@ -122,29 +127,7 @@ Experience_Formula:
         Multiplier: 0
     Nether_Portal:
         Multiplier: 0
-Diminished_Returns:
-    Guaranteed_Minimum_Percentage: 0.05
-    Enabled: false
-    Threshold:
-        Swords: 250000
-        Taming: 250000
-        Acrobatics: 250000
-        Excavation: 250000
-        Herbalism: 250000
-        Unarmed: 250000
-        Woodcutting: 250000
-        Mining: 250000
-        Archery: 250000
-        Axes: 250000
-        Repair: 250000
-        Fishing: 250000
-        Alchemy: 250000
-    Time_Interval: 10
-Conversion:
-    Exp_Modifier: 1
-Experience_Values:
-    PVP:
-        Rewards: true
+Experience_Values:    
     Acrobatics:
         Dodge: 439
         Roll: 290
@@ -158,12 +141,78 @@ Experience_Values:
         Potion_Stage_5: 707
     Archery:
         Distance_Multiplier: 0.03
-    Fishing:
-        Cod: 450
-        Salmon: 700
-        Tropical_Fish: 5000
-        Pufferfish: 2400
-        Shake: 90
+    Combat:
+        Multiplier:
+            Animals: 0.8
+            Creeper: 2.7
+            Skeleton: 2.4
+            Spider: 1.8
+            Giant: 1.8
+            Zombie: 1.8
+            Slime: 2.0
+            Ghast: 3.1
+            Pig_Zombie: 2.1
+            Enderman: 1.5
+            Cave_Spider: 3.0
+            Silverfish: 3.0
+            Blaze: 2.4
+            Magma_Cube: 2.0
+            Ender_Dragon: 7.0
+            Wither: 5.1
+            Witch: 3.4
+            Iron_Golem: 0.4
+            Wither_Skeleton: 3.5
+            Endermite: 1.0
+            Guardian: 1.9
+            Elder_Guardian: 4.0
+            Shulker: 2.0
+            Donkey: 1.0
+            Mule: 1.0
+            Horse: 1.0
+            Zombie_Villager: 2.0
+            Skeleton_Horse: 2.0
+            Zombie_Horse: 1.2
+            Husk: 1.0
+            Evoker: 3.0
+            Polar_Bear: 2.0
+            Llama: 0.8
+            Vindicator: 3.0
+            Stray: 2.0
+            Rabbit: 0.7
+            Chicken: 0.5
+            Bat: 0.5
+            Mushroom_Cow: 1.2
+            Cow: 1.0
+            Turtle: 1.1
+            Sheep: 1.0
+            Pig: 1.0
+            Squid: 1.3
+            Ocelot: 0.2
+            Villager: 0.9
+            Snowman: 0.2
+            Parrot: 0.3
+            Illusioner: 3.0
+            Drowned: 2.0
+            Dolphin: 1.3
+            Phantom: 3.3
+            Cat: 0.1
+            Fox: 1.0
+            Panda: 1.0
+            Pillager: 2.2
+            Ravager: 4.0
+            Trader_Llama: 0.1
+            Wandering_trader: 0.1
+            Hoglin: 4.0
+            Piglin: 2.0
+            Zombie_Pigman: 1.9
+            Zombified_Piglin: 2.2
+            Bee: 1.5
+            Strider: 1.2
+            Zoglin: 2.5
+            Piglin_Brute: 3.5
+            Glow_Squid: 1.5
+            Goat: 1.5
+            Axolotl: 0.1
     Excavation:
         Clay: 168
         Dirt: 18
@@ -181,46 +230,12 @@ Experience_Values:
         Rooted_Dirt: 60
         Mud: 80
         Muddy_Mangrove_Roots: 643
-    Woodcutting:
-        Oak_Log: 162
-        Spruce_Log: 190
-        Birch_Log: 209
-        Jungle_Log: 255
-        Acacia_Log: 282
-        Dark_Oak_Log: 136
-        Stripped_Oak_Log: 172
-        Stripped_Spruce_Log: 200
-        Stripped_Birch_Log: 218
-        Stripped_Jungle_Log: 265
-        Stripped_Acacia_Log: 292
-        Stripped_Dark_Oak_Log: 146
-        Stripped_Oak_Wood: 172
-        Stripped_Spruce_Wood: 200
-        Stripped_Birch_Wood: 229
-        Stripped_Jungle_Wood: 265
-        Stripped_Acacia_Wood: 292
-        Stripped_Dark_Oak_Wood: 146
-        Oak_Wood: 162
-        Spruce_Wood: 190
-        Birch_Wood: 209
-        Jungle_Wood: 205
-        Acacia_Wood: 282
-        Dark_Oak_Wood: 136
-        Red_Mushroom_Block: 32
-        Brown_Mushroom_Block: 30
-        Mushroom_Stem: 64
-        Shroomlight: 470
-        Warped_Stem: 350
-        Crimson_Stem: 350
-        Warped_Wart_Block: 150
-        Nether_Wart_Block: 290
-        Crimson_Hyphae: 300
-        Stripped_Warped_Hyphae: 280
-        Warped_Hyphae: 320
-        Stripped_Crimson_Hyphae: 280
-        Mangrove_Wood: 245
-        Mangrove_Log: 245
-        Mangrove_Roots: 192
+    Fishing:
+        Cod: 450
+        Salmon: 700
+        Tropical_Fish: 5000
+        Pufferfish: 2400
+        Shake: 90
     Herbalism:
         Sweet_Berry_Bush: 69
         Seagrass: 21
@@ -408,6 +423,8 @@ Experience_Values:
         Copper_Ore: 166
         Smooth_Basalt: 90
         Amethyst_Block: 275
+    PVP:
+        Rewards: true
     Repair:
         Base: 1000.0
         Wood: 0.2
@@ -461,78 +478,61 @@ Experience_Values:
             Bee: 100
             Goat: 250
             Axolotl: 600
+    Woodcutting:
+        Oak_Log: 162
+        Spruce_Log: 190
+        Birch_Log: 209
+        Jungle_Log: 255
+        Acacia_Log: 282
+        Dark_Oak_Log: 136
+        Stripped_Oak_Log: 172
+        Stripped_Spruce_Log: 200
+        Stripped_Birch_Log: 218
+        Stripped_Jungle_Log: 265
+        Stripped_Acacia_Log: 292
+        Stripped_Dark_Oak_Log: 146
+        Stripped_Oak_Wood: 172
+        Stripped_Spruce_Wood: 200
+        Stripped_Birch_Wood: 229
+        Stripped_Jungle_Wood: 265
+        Stripped_Acacia_Wood: 292
+        Stripped_Dark_Oak_Wood: 146
+        Oak_Wood: 162
+        Spruce_Wood: 190
+        Birch_Wood: 209
+        Jungle_Wood: 205
+        Acacia_Wood: 282
+        Dark_Oak_Wood: 136
+        Red_Mushroom_Block: 32
+        Brown_Mushroom_Block: 30
+        Mushroom_Stem: 64
+        Shroomlight: 470
+        Warped_Stem: 350
+        Crimson_Stem: 350
+        Warped_Wart_Block: 150
+        Nether_Wart_Block: 290
+        Crimson_Hyphae: 300
+        Stripped_Warped_Hyphae: 280
+        Warped_Hyphae: 320
+        Stripped_Crimson_Hyphae: 280
+        Mangrove_Wood: 245
+        Mangrove_Log: 245
+        Mangrove_Roots: 192
+ExploitFix:
     Combat:
-        Multiplier:
-            Animals: 0.8
-            Creeper: 2.7
-            Skeleton: 2.4
-            Spider: 1.8
-            Giant: 1.8
-            Zombie: 1.8
-            Slime: 2.0
-            Ghast: 3.1
-            Pig_Zombie: 2.1
-            Enderman: 1.5
-            Cave_Spider: 3.0
-            Silverfish: 3.0
-            Blaze: 2.4
-            Magma_Cube: 2.0
-            Ender_Dragon: 7.0
-            Wither: 5.1
-            Witch: 3.4
-            Iron_Golem: 0.4
-            Wither_Skeleton: 3.5
-            Endermite: 1.0
-            Guardian: 1.9
-            Elder_Guardian: 4.0
-            Shulker: 2.0
-            Donkey: 1.0
-            Mule: 1.0
-            Horse: 1.0
-            Zombie_Villager: 2.0
-            Skeleton_Horse: 2.0
-            Zombie_Horse: 1.2
-            Husk: 1.0
-            Evoker: 3.0
-            Polar_Bear: 2.0
-            Llama: 0.8
-            Vindicator: 3.0
-            Stray: 2.0
-            Rabbit: 0.7
-            Chicken: 0.5
-            Bat: 0.5
-            Mushroom_Cow: 1.2
-            Cow: 1.0
-            Turtle: 1.1
-            Sheep: 1.0
-            Pig: 1.0
-            Squid: 1.3
-            Ocelot: 0.2
-            Villager: 0.9
-            Snowman: 0.2
-            Parrot: 0.3
-            Illusioner: 3.0
-            Drowned: 2.0
-            Dolphin: 1.3
-            Phantom: 3.3
-            Cat: 0.1
-            Fox: 1.0
-            Panda: 1.0
-            Pillager: 2.2
-            Ravager: 4.0
-            Trader_Llama: 0.1
-            Wandering_trader: 0.1
-            Hoglin: 4.0
-            Piglin: 2.0
-            Zombie_Pigman: 1.9
-            Zombified_Piglin: 2.2
-            Bee: 1.5
-            Strider: 1.2
-            Zoglin: 2.5
-            Piglin_Brute: 3.5
-            Glow_Squid: 1.5
-            Goat: 1.5
-            Axolotl: 0.1
+        XPCeiling:
+            Enabled: true
+            Damage_Limit: 100
+    COTWBreeding: true
+    UnsafeEnchantments: false
+    Fishing: true
+    EndermanEndermiteFarms: false
+    Acrobatics: true
+    LavaStoneAndCobbleFarming: true
+    TreeFellerReducedXP: true
+    PistonCheating: true
+    SnowGolemExcavation: true
+    PreventPluginNPCInteraction: true
 Fishing_ExploitFix_Options:
     MoveRange: 3
     OverFishLimit: 10
