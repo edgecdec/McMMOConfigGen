@@ -1,0 +1,25 @@
+Smelting:
+    Coal_Ore: 200
+    Diamond_Ore: 650
+    Emerald_Ore: 450
+    Gold_Ore: 400
+    Iron_Ore: 350
+    Nether_Quartz_Ore: 500
+    Redstone_Ore: 400
+    Ancient_Debris: 3000
+    Sand: 120
+    Nether_Gold_Ore: 650
+    Lapis_Lazuli_Ore: 550
+    Deepslate_Lapis_Lazuli_Ore: 380
+    Deepslate_Copper_Ore: 150
+    Deepslate_Gold_Ore: 430
+    Deepslate_Coal_Ore: 220
+    Raw_Gold: 500
+    Cobbled_Deepslate: 80
+    Copper_Ore: 175
+    Raw_Copper: 80
+    Deepslate_Emerald_Ore: 480
+    Deepslate_Redstone_Ore: 230
+    Deepslate_Iron_Ore: 380
+    Raw_Iron: 350
+    Deepslate_Diamond_Ore: 1000

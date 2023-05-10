@@ -1,0 +1,11 @@
+Repair:
+    Base: 1000.0
+    Wood: 0.2
+    Stone: 0.3
+    Iron: 0.8
+    Gold: 0.7
+    Diamond: 1.8
+    Leather: 0.5
+    String: 0.5
+    Other: 1.5
+    Netherite: 2.8

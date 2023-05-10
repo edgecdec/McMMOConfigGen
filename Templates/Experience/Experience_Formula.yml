@@ -1,0 +1,37 @@
+Experience_Formula:
+    Curve: EXPONENTIAL
+    Linear_Values:
+        base: 1020
+        multiplier: 20
+    Exponential_Values:
+        multiplier: 0.1
+        exponent: 1.65
+        base: 400
+    Cumulative_Curve: false
+    Multiplier:
+        Global: 0.2
+        PVP: 0.2
+    Mobspawners:
+        Multiplier: 0.0
+    Breeding:
+        Multiplier: 2.0
+    Modifier:
+        Swords: 1.2
+        Taming: 0.4
+        Acrobatics: 1.0
+        Excavation: 1.0
+        Herbalism: 1.0
+        Unarmed: 1.0
+        Woodcutting: 1.0
+        Mining: 1.0
+        Archery: 1.0
+        Axes: 1.2
+        Repair: 1.0
+        Fishing: 1.0
+        Alchemy: 1.0
+    Custom_XP_Perk:
+        Boost: 1.0
+    Eggs:
+        Multiplier: 0
+    Nether_Portal:
+        Multiplier: 0

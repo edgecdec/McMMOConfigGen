@@ -1,0 +1,69 @@
+Experience_Bars:
+    Enable: true
+    Update:
+        Party: true
+        Passive: true
+    ThisMayCauseLag:
+        AlwaysUpdateTitlesWhenXPIsGained:
+            Enable: true
+            ExtraDetails: true
+    Acrobatics:
+        Enable: true
+        Color: PINK
+        BarStyle: SOLID
+    Alchemy:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Archery:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Axes:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Excavation:
+        Enable: true
+        Color: YELLOW
+        BarStyle: SOLID
+    Fishing:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Herbalism:
+        Enable: true
+        Color: GREEN
+        BarStyle: SOLID
+    Mining:
+        Enable: true
+        Color: YELLOW
+        BarStyle: SOLID
+    Repair:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Salvage:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Smelting:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Swords:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Taming:
+        Enable: true
+        Color: RED
+        BarStyle: SOLID
+    Unarmed:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Woodcutting:
+        Enable: true
+        Color: GREEN
+        BarStyle: SOLID

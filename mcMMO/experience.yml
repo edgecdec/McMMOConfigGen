@@ -1,0 +1,538 @@
+ConfigPatchVersion: 2
+EarlyGameBoost:
+    Enabled: true
+ExploitFix:
+    Combat:
+        XPCeiling:
+            Enabled: true
+            Damage_Limit: 100
+    COTWBreeding: true
+    UnsafeEnchantments: false
+    Fishing: true
+    EndermanEndermiteFarms: false
+    Acrobatics: true
+    LavaStoneAndCobbleFarming: true
+    TreeFellerReducedXP: true
+    PistonCheating: true
+    SnowGolemExcavation: true
+    PreventPluginNPCInteraction: true
+Experience_Bars:
+    Enable: true
+    Update:
+        Party: true
+        Passive: true
+    ThisMayCauseLag:
+        AlwaysUpdateTitlesWhenXPIsGained:
+            Enable: true
+            ExtraDetails: true
+    Acrobatics:
+        Enable: true
+        Color: PINK
+        BarStyle: SOLID
+    Alchemy:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Archery:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Axes:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Excavation:
+        Enable: true
+        Color: YELLOW
+        BarStyle: SOLID
+    Fishing:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Herbalism:
+        Enable: true
+        Color: GREEN
+        BarStyle: SOLID
+    Mining:
+        Enable: true
+        Color: YELLOW
+        BarStyle: SOLID
+    Repair:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Salvage:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Smelting:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SOLID
+    Swords:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Taming:
+        Enable: true
+        Color: RED
+        BarStyle: SOLID
+    Unarmed:
+        Enable: true
+        Color: BLUE
+        BarStyle: SOLID
+    Woodcutting:
+        Enable: true
+        Color: GREEN
+        BarStyle: SOLID
+Experience_Formula:
+    Curve: EXPONENTIAL
+    Linear_Values:
+        base: 1020
+        multiplier: 20
+    Exponential_Values:
+        multiplier: 0.1
+        exponent: 1.65
+        base: 400
+    Cumulative_Curve: false
+    Multiplier:
+        Global: 0.2
+        PVP: 0.2
+    Mobspawners:
+        Multiplier: 0.0
+    Breeding:
+        Multiplier: 2.0
+    Modifier:
+        Swords: 1.2
+        Taming: 0.4
+        Acrobatics: 1.0
+        Excavation: 1.0
+        Herbalism: 1.0
+        Unarmed: 1.0
+        Woodcutting: 1.0
+        Mining: 1.0
+        Archery: 1.0
+        Axes: 1.2
+        Repair: 1.0
+        Fishing: 1.0
+        Alchemy: 1.0
+    Custom_XP_Perk:
+        Boost: 1.0
+    Eggs:
+        Multiplier: 0
+    Nether_Portal:
+        Multiplier: 0
+Diminished_Returns:
+    Guaranteed_Minimum_Percentage: 0.05
+    Enabled: false
+    Threshold:
+        Swords: 250000
+        Taming: 250000
+        Acrobatics: 250000
+        Excavation: 250000
+        Herbalism: 250000
+        Unarmed: 250000
+        Woodcutting: 250000
+        Mining: 250000
+        Archery: 250000
+        Axes: 250000
+        Repair: 250000
+        Fishing: 250000
+        Alchemy: 250000
+    Time_Interval: 10
+Conversion:
+    Exp_Modifier: 1
+Experience_Values:
+    PVP:
+        Rewards: true
+    Acrobatics:
+        Dodge: 439
+        Roll: 290
+        Fall: 260
+        FeatherFall_Multiplier: 1.3
+    Alchemy:
+        Potion_Stage_1: 190
+        Potion_Stage_2: 491
+        Potion_Stage_3: 282
+        Potion_Stage_4: 585
+        Potion_Stage_5: 707
+    Archery:
+        Distance_Multiplier: 0.03
+    Fishing:
+        Cod: 450
+        Salmon: 700
+        Tropical_Fish: 5000
+        Pufferfish: 2400
+        Shake: 90
+    Excavation:
+        Clay: 168
+        Dirt: 18
+        Coarse_Dirt: 18
+        Podzol: 40
+        Grass_Block: 25
+        Gravel: 54
+        Mycelium: 139
+        Sand: 18
+        Red_Sand: 26
+        Snow: 22
+        Snow_Block: 112
+        Soul_Sand: 191
+        Soul_Soil: 219
+        Rooted_Dirt: 60
+        Mud: 80
+        Muddy_Mangrove_Roots: 643
+    Woodcutting:
+        Oak_Log: 162
+        Spruce_Log: 190
+        Birch_Log: 209
+        Jungle_Log: 255
+        Acacia_Log: 282
+        Dark_Oak_Log: 136
+        Stripped_Oak_Log: 172
+        Stripped_Spruce_Log: 200
+        Stripped_Birch_Log: 218
+        Stripped_Jungle_Log: 265
+        Stripped_Acacia_Log: 292
+        Stripped_Dark_Oak_Log: 146
+        Stripped_Oak_Wood: 172
+        Stripped_Spruce_Wood: 200
+        Stripped_Birch_Wood: 229
+        Stripped_Jungle_Wood: 265
+        Stripped_Acacia_Wood: 292
+        Stripped_Dark_Oak_Wood: 146
+        Oak_Wood: 162
+        Spruce_Wood: 190
+        Birch_Wood: 209
+        Jungle_Wood: 205
+        Acacia_Wood: 282
+        Dark_Oak_Wood: 136
+        Red_Mushroom_Block: 32
+        Brown_Mushroom_Block: 30
+        Mushroom_Stem: 64
+        Shroomlight: 470
+        Warped_Stem: 350
+        Crimson_Stem: 350
+        Warped_Wart_Block: 150
+        Nether_Wart_Block: 290
+        Crimson_Hyphae: 300
+        Stripped_Warped_Hyphae: 280
+        Warped_Hyphae: 320
+        Stripped_Crimson_Hyphae: 280
+        Mangrove_Wood: 245
+        Mangrove_Log: 245
+        Mangrove_Roots: 192
+    Herbalism:
+        Sweet_Berry_Bush: 69
+        Seagrass: 21
+        Tall_Seagrass: 27
+        Kelp: 17
+        Kelp_Plant: 17
+        Tube_Coral: 580
+        Brain_Coral: 590
+        Bubble_Coral: 575
+        Fire_Coral: 520
+        Horn_Coral: 575
+        Tube_Coral_Fan: 280
+        Brain_Coral_Fan: 290
+        Bubble_Coral_Fan: 275
+        Fire_Coral_Fan: 220
+        Horn_Coral_Fan: 275
+        Tube_Coral_Wall_Fan: 280
+        Brain_Coral_Wall_Fan: 290
+        Bubble_Coral_Wall_Fan: 275
+        Fire_Coral_Wall_Fan: 220
+        Horn_Coral_Wall_Fan: 275
+        Dead_Tube_Coral: 300
+        Dead_Brain_Coral: 300
+        Dead_Bubble_Coral: 300
+        Dead_Fire_Coral: 300
+        Dead_Horn_Coral: 300
+        Dead_Tube_Coral_Fan: 300
+        Dead_Brain_Coral_Fan: 300
+        Dead_Bubble_Coral_Fan: 300
+        Dead_Fire_Coral_Fan: 300
+        Dead_Horn_Coral_Fan: 300
+        Dead_Tube_Coral_Wall_Fan: 300
+        Dead_Brain_Coral_Wall_Fan: 300
+        Dead_Bubble_Coral_Wall_Fan: 300
+        Dead_Fire_Coral_Wall_Fan: 300
+        Dead_Horn_Coral_Wall_Fan: 300
+        Allium: 300
+        Azure_Bluet: 140
+        Blue_Orchid: 140
+        Brown_Mushroom: 107
+        Cactus: 150
+        Chorus_Flower: 220
+        Chorus_Plant: 220
+        Carrots: 132
+        Cocoa: 240
+        Potatoes: 139
+        Wheat: 95
+        Beetroot: 122
+        Nether_Wart: 186
+        Dead_Bush: 290
+        Lilac: 140
+        Melon: 299
+        Orange_Tulip: 140
+        Oxeye_Daisy: 140
+        Peony: 140
+        Pink_Tulip: 140
+        Poppy: 140
+        Pumpkin: 312
+        Red_Mushroom: 96
+        Red_Tulip: 150
+        Rose_Bush: 259
+        Fern: 126
+        Grass: 41
+        Sugar_Cane: 123
+        Sunflower: 170
+        Tall_Grass: 76
+        Large_Fern: 130
+        Vine: 152
+        Lily_Pad: 244
+        White_Tulip: 150
+        Dandelion: 114
+        Bamboo: 29
+        Cornflower: 150
+        Lily_Of_The_Valley: 490
+        Wither_Rose: 500
+        Twisting_Vines_Plant: 250
+        Warped_Wart_Block: 100
+        Crimson_Fungus: 200
+        Nether_Sprouts: 100
+        Weeping_Vines_Plant: 185
+        Warped_Roots: 270
+        Nether_Wart_Block: 120
+        Bee_Nest: 1089
+        Warped_Fungus: 250
+        Crimson_Roots: 260
+        Beetroots: 150
+        Shroomlight: 450
+        Small_Dripleaf: 100
+        Moss_Block: 36
+        Cave_Vines: 165
+        Glow_Lichen: 195
+        Cave_Vines_Plant: 190
+        Big_Dripleaf: 125
+    Mining:
+        Magma_Block: 120
+        Tube_Coral_Block: 75
+        Brain_Coral_Block: 80
+        Bubble_Coral_Block: 70
+        Fire_Coral_Block: 90
+        Horn_Coral_Block: 125
+        Coal_Ore: 270
+        Diamond_Ore: 1490
+        Emerald_Ore: 1022
+        End_Bricks: 270
+        Nether_Bricks: 139
+        End_Stone: 39
+        Glowstone: 179
+        Gold_Ore: 861
+        Terracotta: 40
+        Iron_Ore: 779
+        Lapis_Ore: 841
+        Mossy_Cobblestone: 293
+        Netherrack: 15
+        Obsidian: 209
+        Packed_Ice: 160
+        Blue_Ice: 158
+        Nether_Quartz_Ore: 314
+        Redstone_Ore: 627
+        Sandstone: 32
+        Black_Terracotta: 180
+        Blue_Terracotta: 180
+        Brown_Terracotta: 180
+        Cyan_Terracotta: 180
+        Gray_Terracotta: 180
+        Green_Terracotta: 180
+        Light_Blue_Terracotta: 180
+        Light_Gray_Terracotta: 180
+        Lime_Terracotta: 180
+        Magenta_Terracotta: 180
+        Orange_Terracotta: 180
+        Pink_Terracotta: 180
+        Purple_Terracotta: 180
+        Red_Terracotta: 180
+        White_Terracotta: 180
+        Yellow_Terracotta: 180
+        Stone: 57
+        Granite: 81
+        Andesite: 92
+        Diorite: 90
+        Stone_Bricks: 50
+        Cracked_Stone_Bricks: 50
+        Mossy_Stone_Bricks: 50
+        Chiseled_Stone_Bricks: 50
+        Red_Sandstone: 32
+        Prismarine: 201
+        Prismarine_Bricks: 241
+        Dark_Prismarine: 363
+        Sea_Lantern: 420
+        Purpur_Block: 200
+        Purpur_Pillar: 250
+        Purpur_Slab: 150
+        Purpur_Stairs: 250
+        Nether_Gold_Ore: 980
+        Warped_Nylium: 200
+        Ancient_Debris: 4591
+        Basalt: 40
+        Crimson_Nylium: 200
+        Bone_Block: 500
+        Chiseled_Nether_Bricks: 80
+        Chain: 100
+        Crying_Obsidian: 860
+        Blackstone: 55
+        Red_Nether_Bricks: 180
+        Cracked_Nether_Bricks: 180
+        Gilded_Blackstone: 200
+        Small_Amethyst_Bud: 300
+        Calcite: 60
+        Tuff: 74
+        Deepslate_Coal_Ore: 2860
+        Deepslate_Emerald_Ore: 1097
+        Deepslate_Redstone_Ore: 708
+        Deepslate_Copper_Ore: 198
+        Deepslate_Gold_Ore: 900
+        Deepslate_Lapis_Ore: 871
+        Cobbled_Deepslate: 80
+        Deepslate: 80
+        Deepslate_Iron_Ore: 839
+        Large_Amethyst_Bud: 30
+        Deepslate_Diamond_Ore: 1786
+        Budding_Amethyst: 403
+        Block_Of_Amethyst: 200
+        Lapis_Lazuli_Ore: 800
+        Amethyst_Cluster: 517
+        Medium_Amethyst_Bud: 365
+        Copper_Ore: 166
+        Smooth_Basalt: 90
+        Amethyst_Block: 275
+    Repair:
+        Base: 1000.0
+        Wood: 0.2
+        Stone: 0.3
+        Iron: 0.8
+        Gold: 0.7
+        Diamond: 1.8
+        Leather: 0.5
+        String: 0.5
+        Other: 1.5
+        Netherite: 2.8
+    Smelting:
+        Coal_Ore: 200
+        Diamond_Ore: 650
+        Emerald_Ore: 450
+        Gold_Ore: 400
+        Iron_Ore: 350
+        Nether_Quartz_Ore: 500
+        Redstone_Ore: 400
+        Ancient_Debris: 3000
+        Sand: 120
+        Nether_Gold_Ore: 650
+        Lapis_Lazuli_Ore: 550
+        Deepslate_Lapis_Lazuli_Ore: 380
+        Deepslate_Copper_Ore: 150
+        Deepslate_Gold_Ore: 430
+        Deepslate_Coal_Ore: 220
+        Raw_Gold: 500
+        Cobbled_Deepslate: 80
+        Copper_Ore: 175
+        Raw_Copper: 80
+        Deepslate_Emerald_Ore: 480
+        Deepslate_Redstone_Ore: 230
+        Deepslate_Iron_Ore: 380
+        Raw_Iron: 350
+        Deepslate_Diamond_Ore: 1000
+    Taming:
+        Animal_Taming:
+            Llama: 1200
+            Wolf: 160
+            Ocelot: 490
+            Horse: 1469
+            Donkey: 1129
+            Mule: 1000
+            Skeleton_Horse: 2000
+            Zombie_Horse: 1000
+            Parrot: 1100
+            Cat: 225
+            Fox: 1000
+            Panda: 1000
+            Bee: 100
+            Goat: 250
+            Axolotl: 600
+    Combat:
+        Multiplier:
+            Animals: 0.8
+            Creeper: 2.7
+            Skeleton: 2.4
+            Spider: 1.8
+            Giant: 1.8
+            Zombie: 1.8
+            Slime: 2.0
+            Ghast: 3.1
+            Pig_Zombie: 2.1
+            Enderman: 1.5
+            Cave_Spider: 3.0
+            Silverfish: 3.0
+            Blaze: 2.4
+            Magma_Cube: 2.0
+            Ender_Dragon: 7.0
+            Wither: 5.1
+            Witch: 3.4
+            Iron_Golem: 0.4
+            Wither_Skeleton: 3.5
+            Endermite: 1.0
+            Guardian: 1.9
+            Elder_Guardian: 4.0
+            Shulker: 2.0
+            Donkey: 1.0
+            Mule: 1.0
+            Horse: 1.0
+            Zombie_Villager: 2.0
+            Skeleton_Horse: 2.0
+            Zombie_Horse: 1.2
+            Husk: 1.0
+            Evoker: 3.0
+            Polar_Bear: 2.0
+            Llama: 0.8
+            Vindicator: 3.0
+            Stray: 2.0
+            Rabbit: 0.7
+            Chicken: 0.5
+            Bat: 0.5
+            Mushroom_Cow: 1.2
+            Cow: 1.0
+            Turtle: 1.1
+            Sheep: 1.0
+            Pig: 1.0
+            Squid: 1.3
+            Ocelot: 0.2
+            Villager: 0.9
+            Snowman: 0.2
+            Parrot: 0.3
+            Illusioner: 3.0
+            Drowned: 2.0
+            Dolphin: 1.3
+            Phantom: 3.3
+            Cat: 0.1
+            Fox: 1.0
+            Panda: 1.0
+            Pillager: 2.2
+            Ravager: 4.0
+            Trader_Llama: 0.1
+            Wandering_trader: 0.1
+            Hoglin: 4.0
+            Piglin: 2.0
+            Zombie_Pigman: 1.9
+            Zombified_Piglin: 2.2
+            Bee: 1.5
+            Strider: 1.2
+            Zoglin: 2.5
+            Piglin_Brute: 3.5
+            Glow_Squid: 1.5
+            Goat: 1.5
+            Axolotl: 0.1
+Fishing_ExploitFix_Options:
+    MoveRange: 3
+    OverFishLimit: 10

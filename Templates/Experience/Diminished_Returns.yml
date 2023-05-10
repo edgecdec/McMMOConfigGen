@@ -1,0 +1,18 @@
+Diminished_Returns:
+    Guaranteed_Minimum_Percentage: 0.05
+    Enabled: false
+    Threshold:
+        Swords: 250000
+        Taming: 250000
+        Acrobatics: 250000
+        Excavation: 250000
+        Herbalism: 250000
+        Unarmed: 250000
+        Woodcutting: 250000
+        Mining: 250000
+        Archery: 250000
+        Axes: 250000
+        Repair: 250000
+        Fishing: 250000
+        Alchemy: 250000
+    Time_Interval: 10
